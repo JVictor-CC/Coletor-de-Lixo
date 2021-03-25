@@ -15,6 +15,6 @@ int main()
     *c='z';
     atrib2(&w,NULL);
     printaReferencia();
-    limpaLixo();
+    limpaTudo();
     return 0;
 }
