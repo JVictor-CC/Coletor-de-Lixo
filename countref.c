@@ -65,7 +65,7 @@ void at_ListaRef(memoria *componente, int contaR){
     }
 }
 
-void limpaLixo(){
+void limpaTudo(){
 
     memoria *aux=listaRef;
     while (aux!=NULL){
@@ -79,7 +79,7 @@ void printaReferencia(){
 
     memoria *aux=listaRef;
     while (aux!=NULL){
-        printf("Endereço:%d\t",aux->endereco);
+        printf("EndereÃ§o:%d\t",aux->endereco);
         printf("ref:%d\n",aux->contaR);
         aux=aux->prox;
     }
