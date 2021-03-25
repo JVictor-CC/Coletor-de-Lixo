@@ -9,7 +9,7 @@ typedef struct memoria{
 
 void *malloc2(int size_);
 void atrib2(void **receptor,void *transmissor);
-void limpaLixo();
+void limpaTudo();
 void printaReferencia();
 void at_ListaRef(memoria *componente,int contaR);
 
