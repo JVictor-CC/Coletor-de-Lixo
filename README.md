@@ -1,1 +1,1 @@
-# Coletor-de-Lixo
+# Coletor-de-Lixo (contagem por referencias)
